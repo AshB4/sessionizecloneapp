@@ -1,0 +1,25 @@
+.hero-section {
+  text-align: center;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+.hero-section h1 {
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  margin-bottom: 1.5rem;
+}
+
+.primary-button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background: #0056b3;
+}

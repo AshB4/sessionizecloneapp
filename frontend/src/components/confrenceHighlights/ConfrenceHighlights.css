@@ -1,0 +1,17 @@
+.conference-highlights {
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.conference-highlights h2 {
+  margin-bottom: 1rem;
+}
+
+.conference-highlights ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.conference-highlights li {
+  margin-bottom: 0.5rem;
+}

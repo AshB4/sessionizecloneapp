@@ -1,0 +1,11 @@
+.primary-button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background: #0056b3;
+}

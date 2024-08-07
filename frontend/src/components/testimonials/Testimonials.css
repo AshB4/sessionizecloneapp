@@ -1,0 +1,18 @@
+.testimonials {
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.testimonials h2 {
+  margin-bottom: 1rem;
+}
+
+.testimonials blockquote {
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.testimonials footer {
+  text-align: right;
+  font-size: 0.9rem;
+}
