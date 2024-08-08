@@ -1,0 +1,12 @@
+.speakers-list {
+  padding: 16px;
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.speaker-cards {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,1 @@
+// reports: Tracks how many people have signed out keeps track of speakers and anything else I forgot
