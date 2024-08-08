@@ -1,0 +1,35 @@
+/* global.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-gray: #d3d3d3; /* Secondary text and borders */
+    --dark-gray: #383131;
+    --red: #A91B0D; /* Primary Red */
+    --orange: #FDB021; /* Highlight or Call-to-action */
+    --dark-blue: #003366; /* Backgrounds or Secondary Elements */
+    --light-blue: #6ec0eb;
+    --purple: #642F6C; /* Headers or Secondary Highlights */
+    
+     --font1: 'Roboto', sans-serif;
+    --font2: 'Orbitron', sans-serif;
+}
+
+/* Reset some basic styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+}
+
+p, a, li, span, div {
+    font-family: 'Roboto', sans-serif;
+}
+

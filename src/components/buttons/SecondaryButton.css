@@ -10,15 +10,16 @@
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    color: var(--text-color);
 }
 
-.primary {
-    background: var(--light-blue);
+.secondary {
+    background: var(--white);
     border: 2px solid var(--light-blue);
     box-shadow: 0 0 10px var(--light-blue);
 }
 
-.primary:hover {
+.secondary:hover {
+    background: var(--light-blue); 
     box-shadow: 0 0 20px var(--light-blue);
+    color: var(--white); 
 }

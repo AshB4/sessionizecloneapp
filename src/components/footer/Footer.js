@@ -1,31 +1,47 @@
 /** @format */
 
 import React from "react";
-import "./Footer.css"; // Import the Footer-specific styles
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faFacebookF,
+	faTwitter,
+	faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
+import SecondaryButton from "../buttons/SecondaryButton";
+import "./Footer.css";
+
 
 function Footer() {
 	return (
 		<footer className="footer">
-			<h3>Follow us on social media</h3>
-			<div className="social-icons">
-				<a href="https://facebook.com" aria-label="Facebook">
-					<img src="/icons/facebook.svg" alt="Facebook" />
-				</a>
-				<a href="https://twitter.com" aria-label="Twitter">
-					<img src="/icons/twitter.svg" alt="Twitter" />
-				</a>
-				<a href="https://linkedin.com" aria-label="LinkedIn">
-					<img src="/icons/linkedin.svg" alt="LinkedIn" />
-				</a>
-			</div>
 			<div className="footer-content">
-				<p>&copy; 2024 SQL Sat. All rights reserved.</p>
-				<nav className="footer-nav">
-					<a href="/about">About</a>
-					<a href="/contact">Contact</a>
-					<a href="/privacy-policy">Privacy Policy</a>
-					<a href="/terms-of-service">Terms of Service</a>
-				</nav>
+				<div className="social-icons">
+					<SecondaryButton
+						onClick={() => (window.location.href = "https://facebook.com")}>
+						<FontAwesomeIcon
+							icon={faFacebookF}
+							size="2x"
+							style={{ color: "#003366" }}
+						/>
+					</SecondaryButton>
+					<SecondaryButton
+						onClick={() => (window.location.href = "https://twitter.com")}>
+						<FontAwesomeIcon
+							icon={faTwitter}
+							size="2x"
+							style={{ color: "#003366" }}
+						/>
+					</SecondaryButton>
+					<SecondaryButton
+						onClick={() => (window.location.href = "https://linkedin.com")}>
+						<FontAwesomeIcon
+							icon={faLinkedinIn}
+							size="2x"
+							style={{ color: "#003366" }}
+						/>
+					</SecondaryButton>
+				</div>
+				<p>&copy; 2024 SQL Saturday Baton Rouge. All rights reserved.</p>
 			</div>
 		</footer>
 	);

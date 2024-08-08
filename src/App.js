@@ -3,14 +3,17 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import ErrorBoundary from "./components/errorBoundary/ErrorBoundray";
-import Header from "./components/header/Header";
 import AppRoutes from "./routes";
+import "./styles/global.css"
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fas);
 
 function App() {
 	return (
 		<ErrorBoundary>
 			<Router>
-				<Header />
 				<AppRoutes />
 			</Router>
 		</ErrorBoundary>

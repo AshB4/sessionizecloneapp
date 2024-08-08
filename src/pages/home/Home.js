@@ -2,6 +2,8 @@
 
 import React from "react";
 import Header from "../../components/header/Header";
+import PrimaryButton from "../../components/buttons/PrimaryButton";
+import SecondaryButton from "../../components/buttons/SecondaryButton";
 import Footer from "../../components/footer/Footer";
 import HeroSection from "../../components/herosection/HeroSection";
 import Testimonials from "../../components/testimonials/Testimonials";
@@ -14,6 +16,8 @@ function Home() {
 			<Header />
 			<HeroSection />
 			<ConferenceHighlights />
+			<PrimaryButton>Register Now</PrimaryButton>
+			<SecondaryButton>Learn More</SecondaryButton>
 			<Testimonials />
 			<Footer />
 		</div>

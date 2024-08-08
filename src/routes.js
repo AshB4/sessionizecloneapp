@@ -23,7 +23,6 @@ import Home from "./pages/home/Home";
 
 function AppRoutes() {
 	return (
-		// <Router>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				{/* <Route path="/sessions" element={<Sessions />} />
@@ -44,7 +43,6 @@ function AppRoutes() {
 				<Route path="/privacy-policy" element={<PrivacyPolicy />} />
 				<Route path="/terms-of-service" element={<TermsOfService />} /> */}
 			</Routes>
-		// </Router>
 	);
 }
 
